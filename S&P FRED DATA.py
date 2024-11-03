@@ -19,3 +19,4 @@ sp_search2=fred.get_series("SP500")
 plt.plot(sp_search2)
 plt.title("S&P500")
 plt.show()
+#use 3.12.7
