@@ -14,7 +14,7 @@ fred=Fred(api_key=fred_key)
 sp_search= fred.search("S&P", order_by="popularity")
 
 sp_search2=fred.get_series("SP500")
-#print(sp_search2)
+
 
 plt.plot(sp_search2)
 plt.title("S&P500")
